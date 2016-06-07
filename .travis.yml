@@ -1,3 +1,11 @@
 language: node_js
 node_js:
 - '4.2'
+deploy:
+  provider: npm
+  email: henri.bergius@iki.fi
+  api_key:
+    secure: e4p8Ptx3OTAUextn8JIBzkyU+spXP0tYvbna3LxbINlzSpdtFaVQZHFCBcGk/5HBzR2Xo7Ea2E+I6gnXcf8Oh4PO6blA6cTrf3ox55na2snT9JvkS0xHCir0fIQ0OoioYOwJ3RGZ/ZY/oqoYNEgVtQ2cec7djcdZlbZHcIUklZAK4YxRcQ5W42umP9idfl6tK5j8/PmG6E6eKc9TwCWWlqsMuYgH3UZRTnMGY6vLqTB0ATbSRBZhyDT/8cMe2eT+R1U6w/6baXOwsgpkw54TfXY1v3y4ZPDChmElOYS8dF/8SKSGUUh2hk9AihedES61JuhLYnxXWM1VpU7PJ8qFCyrXPj8ou4o81gwnMdGfQeXMvcLcDNC4kCvshDi7iESjfAG9zuMq+0VxwXVmeWc19P/znY44NxtxCzvkUhKHMDprhpS8tfmYeYRwMr/JSpR+dbYgKdpHJcJAkO45Ji5oGDt+OeFEgl+K2W9X3y4z0+hCF6YclTXOiicEglg5O51wsCyIEW/R4/CQ2/pJw5SiryI/K2B1lUPPQmQb6sHQCoka0kMEZOrKbNAD7jFdbbMl6NzZxJ8AcZ4f587Ysh7tFFigPkEFADNSB67+VVptmpFNHzLq54hqRMArHFhRWSHH5mUFpB2YZEMklLQ/cr17VEM2+JmUmY+miMUpEgwcqe4=
+  on:
+    tags: true
+    repo: flowbased/fbp-loader
