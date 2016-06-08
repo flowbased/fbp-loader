@@ -1,6 +1,6 @@
 {
   "name": "fbp-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "fbp module loader for webpack",
   "main": "index.js",
   "scripts": {
