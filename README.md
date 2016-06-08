@@ -9,7 +9,7 @@ This module provides a webpack [loader](http://webpack.github.io/docs/using-load
 {
   module: {
     loaders: [
-      { test: /\.fbp$/, loader: "fbp-loader" },
+      { test: /\.fbp$/, loader: "fbp-loader" }
     ]
   }
 }
