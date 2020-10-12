@@ -4,7 +4,7 @@
   "description": "fbp module loader for webpack",
   "main": "index.js",
   "scripts": {
-    "test": "webpack examples/require.js --output examples/bundle.js --module-bind=\"fbp=./index.js\" && node examples/bundle.js"
+    "test": "webpack && node examples/bundle.js"
   },
   "repository": {
     "type": "git",
