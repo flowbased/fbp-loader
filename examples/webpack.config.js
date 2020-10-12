@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    bundle: './examples/require.js',
+    bundle: path.resolve(__dirname, './require.js'),
   },
   output: {
-    path: path.resolve(process.cwd(), 'examples'),
+    path: __dirname,
     filename: '[name].js',
   },
   mode: 'production',
